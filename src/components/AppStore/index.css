@@ -1,0 +1,97 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #dfe2e5, #ace0f9);
+  min-height: 100vh;
+  border: 1px solid #dfe2e5;
+  font-family: 'Bree Serif';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.app-store-heading {
+  font-size: 42px;
+  color: #1e293b;
+  font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+  .app-store-heading {
+    font-size: 62px;
+    color: #1e293b;
+    font-weight: 900;
+  }
+}
+
+.search-container {
+  border: 1px solid #1e293b;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-container {
+    border: 1px solid #1e293b;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+}
+
+.search-bar {
+  height: 40px;
+  background-color: transparent;
+  border: 0px;
+  padding-left: 6px;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-bar {
+    flex: 1;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    padding-left: 12px;
+    font-size: 18px;
+  }
+}
+
+.search-bar:focus {
+  outline: none;
+}
+
+.search-icon {
+  height: 40px;
+}
+
+.app-item-container {
+  width: 270px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-item-container {
+    width: 600px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.button-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}

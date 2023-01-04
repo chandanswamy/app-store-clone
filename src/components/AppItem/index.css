@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.app-item {
+  list-style-type: none;
+  background-color: #ffffff;
+  border-radius: 12px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.app-image {
+  height: 100px;
+  width: 100px;
+}
+
+.app-name {
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
